@@ -13,8 +13,7 @@ pip3 install -r requirements.txt
 
 Una vez instaladas las librerías, usted ya es libre de correr el programa y dejar que las serpientes aprendan.
 Sin embargo, desde el archivo 'configs.py' se pueden realizar cambios, tanto visuales como funcionales, al codigo.
-
-1. DIMENSION_PANTALLA: para cambiar el tamaño de la pantalla, teniendo en cuenta que los sprites son de 20x20 pixels, puede hacer los calculos del tamaño de pantalla que necesita, sin embargo, la pantalla siempre sera de un tamaño cuadrado (base = altura)
+1. ```python DIMENSION_PANTALLA```: para cambiar el tamaño de la pantalla, teniendo en cuenta que los sprites son de 20x20 pixels, puede hacer los calculos del tamaño de pantalla que necesita, sin embargo, la pantalla siempre sera de un tamaño cuadrado (base = altura)
 2. DIMENSION_SPRITE: esto indica el tamaño de cada bloque que se dibuja en el juego. Se recomienda no cambiar
 3. MOSTRAR_TODAS: este es un booleano que, al estar activado, permite mostrar TODAS las serpientes que juegan a la vez (en vez de solo la mejor)
 4. MOSTRAR_EJES: las serpientes cuentan con ejes por donde detectan la comida, usted puede activar o desactivar esta funcion para poder o no verlos
