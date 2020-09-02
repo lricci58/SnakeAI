@@ -13,15 +13,15 @@ pip3 install -r requirements.txt
 
 Una vez instaladas las librerías, usted ya es libre de correr el programa y dejar que las serpientes aprendan.
 Sin embargo, desde el archivo 'configs.py' se pueden realizar cambios, tanto visuales como funcionales, al codigo.
-1. ```DIMENSION_PANTALLA```: para cambiar el tamaño de la pantalla, teniendo en cuenta que los sprites son de 20x20 pixels, puede hacer los calculos del tamaño de pantalla que necesita, sin embargo, la pantalla siempre sera de un tamaño cuadrado (base = altura)
-2. ```DIMENSION_SPRITE```: esto indica el tamaño de cada bloque que se dibuja en el juego. Se recomienda no cambiar
-3. ```MOSTRAR_TODAS```: este es un booleano que, al estar activado, permite mostrar TODAS las serpientes que juegan a la vez (en vez de solo la mejor)
-4. ```MOSTRAR_EJES```: las serpientes cuentan con ejes por donde detectan la comida, usted puede activar o desactivar esta funcion para poder o no verlos
-5. ```COLORES```: este es un array asociativo con colores en formato rgb, usted puede cambiar estos colores para darle su propio toque visual
-6. ```POBLACION```: este valor indica cuantas serpientes juegan en cada generacion
-7. ```PROB_MUTACION```: esta constante permite valores entre [0, 1) representando porcentajes de probabilidad de que muten los genes de una serpiente hija al ser creada
-8. ```NUMERO_GENERACIONES```: este valor declara cuantas generaciones de serpientes van a jugar hasta que termine el programa (para generaciones infinitas usar -1)
-9. ```ARQUITECTURA_RED```: este es un array asociativo que contiene el numero de entradas (no tocar), y el numero de nodos en cada capa oculta
+1. ```DIMENSION_PANTALLA:``` para cambiar el tamaño de la pantalla, teniendo en cuenta que los sprites son de 20x20 pixels, puede hacer los calculos del tamaño de pantalla que necesita, sin embargo, la pantalla siempre sera de un tamaño cuadrado (base = altura)
+2. ```DIMENSION_SPRITE:``` esto indica el tamaño de cada bloque que se dibuja en el juego. Se recomienda no cambiar
+3. ```MOSTRAR_TODAS:``` este es un booleano que, al estar activado, permite mostrar TODAS las serpientes que juegan a la vez (en vez de solo la mejor)
+4. ```MOSTRAR_EJES:``` las serpientes cuentan con ejes por donde detectan la comida, usted puede activar o desactivar esta funcion para poder o no verlos
+5. ```COLORES:``` este es un array asociativo con colores en formato rgb, usted puede cambiar estos colores para darle su propio toque visual
+6. ```POBLACION:``` este valor indica cuantas serpientes juegan en cada generacion
+7. ```PROB_MUTACION:``` esta constante permite valores entre [0, 1) representando porcentajes de probabilidad de que muten los genes de una serpiente hija al ser creada
+8. ```NUMERO_GENERACIONES:``` este valor declara cuantas generaciones de serpientes van a jugar hasta que termine el programa (para generaciones infinitas usar -1)
+9. ```ARQUITECTURA_RED:``` este es un array asociativo que contiene el numero de entradas (no tocar), y el numero de nodos en cada capa oculta
 
 ## Guardar y cargar serpientes
 
