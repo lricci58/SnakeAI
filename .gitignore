@@ -1,0 +1,5 @@
+# **/ ignora todos los archivos y carpetas dentro de /carpeta
+**/__pycache__
+**/.vscode
+**/grafico
+**/informacion_genetica
